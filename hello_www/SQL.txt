@@ -1,0 +1,5 @@
+INSERT INTO contact (id, name, email) VALUES
+(nextval('CONTACT_SEQ'), 'Leon', 'leon@leon.com'),
+(nextval('CONTACT_SEQ'), 'McGyver', 'mcgyver@mcgyver.com'),
+(nextval('CONTACT_SEQ'), 'John Doe', 'john.doe@johndoe.com'),
+(nextval('CONTACT_SEQ'), 'Jane Doe', 'jane.doe@janedoe.com');
